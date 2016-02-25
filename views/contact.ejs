@@ -1,0 +1,24 @@
+<% include partials/header.ejs %>
+
+        <!--main content -->
+    <main class="container">
+        <h1><%= title %></h1>
+        <p>Welcome to
+            <%= title %>
+        </p>
+        <form method="GET" action="/">
+  <div class="form-group">
+    <label for="myEmail">Email address:<br><br>austinmkpc@hotmail.com</label>
+  </div>
+  <div class="form-group">
+      <label for="myPhone">Phone:<br><br>(705)711-4444</label>
+  </div>
+  <div class="form-group">
+<textarea rows="4" cols="50">Please enter your comments here, and send me some feed back :)</textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+    </main>
+
+<% include partials/footer.ejs %> 

@@ -1,0 +1,42 @@
+/* custom css file*/
+
+h1 {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+body{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-width: 250px;
+    border-left-width: 250px;
+    padding-bottom: 25%;
+    
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.luigi {
+    position: relative;
+    top: -2px; 
+    float: right;
+}
+figure {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 15px;
+}
+figure img {
+    position: relative;
+    vertical-align: top;
+}
+figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    font-size: 30px;
+}
